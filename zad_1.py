@@ -1,4 +1,9 @@
 def imie(name: str, surname: str) -> str:
-    print(f'Cześć {name} {surname}!')
+    fullname = f'Cześć {name} {surname}!'
+    print(fullname)
 
-imie('Martin', 'Williams')
+print("Imie")
+name1 = input()
+print("Nazwisko")
+name2 = input()
+imie(name1, name2)
