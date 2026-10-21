@@ -2,3 +2,16 @@ class Brewery:
     brew_id: str
     brew_name: str
     brew_type: str
+    brew_address1: str
+    brew_address2: str
+    brew_address3: str
+    brew_city: str
+    brew_state_province: str
+    brew_postalcode: str
+    brew_country: str
+    brew_longitude: int
+    brew_latitude: int
+    brew_phone: str
+    brew_url: str
+    brew_state: str
+    brew_street: str
