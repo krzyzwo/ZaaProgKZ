@@ -1,4 +1,4 @@
-def czyparzysta(num: float):
+def czyparzysta(num: int):
     parzystosc: bool
     if num%2 == 0:
         parzystosc = True
@@ -14,7 +14,7 @@ def czyparzysta(num: float):
 print("Liczba")
 liczba = input()
 try:
-    liczba = float(liczba)
+    liczba = int(float(liczba))
     czyparzysta(liczba)
 except:
     print("To nie liczba!")
