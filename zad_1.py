@@ -1,9 +1,18 @@
-def imie(name: str, surname: str) -> str:
-    fullname = f'Cześć {name} {surname}!'
-    print(fullname)
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
 
-print("Imie")
-name1 = input()
-print("Nazwisko")
-name2 = input()
-imie(name1, name2)
+Przemek = Student("Przemysław", 70)
+Marcin = Student("Marcin", 36)
+
+def ispassed(self) -> bool:
+    if self.marks > 50:
+        print(f'{self.name} jest {True}')
+        return True
+    else:
+        print(f'{self.name} jest {False}')
+        return False
+
+ispassed(Przemek)
+ispassed(Marcin)
